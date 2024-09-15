@@ -259,7 +259,7 @@ class gaussian_state:                                                           
     
     # Properties of the gaussian state
     def symplectic_eigenvalues(self):
-        """
+        r"""
         Calculates the sympletic eigenvalues of a covariance matrix V with symplectic form Omega
         
         Finds the absolute values ofthe eigenvalues of i\Omega V and removes repeated entries
@@ -947,7 +947,7 @@ class gaussian_state:                                                           
     
     # Density matrix elements
     def density_matrix_coherent_basis(self, alpha, beta):
-        """
+        r"""
         Calculates the matrix elements of the density operator on the coherent state basis
         
         PARAMETERS:
@@ -1384,7 +1384,7 @@ class gaussian_dynamics:
     """
     
     def __init__(self, A_0, D_0, N_0, initial_state_0):
-        """Class constructor for simulating the time evolution of the multimode systems following open unconditional and conditional quantum dynamics dictated by Langevin and Lyapunov equations
+        r"""Class constructor for simulating the time evolution of the multimode systems following open unconditional and conditional quantum dynamics dictated by Langevin and Lyapunov equations
         
         Langevin: \dot{R} = A*X + N           : time evolution of the mean quadratures
        
